@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
-const API_BASE_URL = 'http://localhost:5000/booking';
+// Use relative URL for Vercel deployment, fallback to localhost for development
+const API_BASE_URL = import.meta.env.PROD ? '/api/booking' : 'http://localhost:5000/booking';
 
 function Booking() {
     const [rooms, setRooms] = useState([]);

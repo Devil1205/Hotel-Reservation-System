@@ -1,0 +1,13 @@
+{
+  "name": "hotel-reservation-system",
+  "version": "1.0.0",
+  "description": "Hotel Room Reservation System",
+  "scripts": {
+    "dev": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
